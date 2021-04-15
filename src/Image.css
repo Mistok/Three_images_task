@@ -1,0 +1,32 @@
+.image {
+    margin-top: 10px;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.image_container{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-inner {
+    border-radius: 15px;
+    box-shadow: 0 0 15px -3px #000;
+}
+
+.default_image{
+    height: 300px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.loader {
+    height: 200px;
+    transition: .5s;
+}
